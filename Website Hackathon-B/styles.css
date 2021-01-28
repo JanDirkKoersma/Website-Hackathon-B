@@ -1,0 +1,152 @@
+.navigation {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    
+    list-style: none;
+    margin: 0; 
+    background: deepskyblue;
+}  
+.navigation a {
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: white;
+    text-align: center; 
+    border-top: 1px solid rgba(255, 255, 255,0.3); 
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.navigation a:hover {
+    background: #1565C0;
+}
+.navigation li:last-of-type a {
+      border-bottom: none;
+}
+body {
+    margin: 0;
+    font-family: Ubuntu,sans-serif;
+    color: #000;
+    background-color: #fff;
+}
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 10px;
+    margin: 20px;
+}
+.kopstart {
+    border: 1px solid #210F0F;
+    background-color: white;
+    padding: inherit;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    color: rgb(4,0,116)
+}
+h1,
+h2,
+h3,
+h4
+{
+    padding: 10px;
+    margin: 20px;
+}
+p {
+   margin: 20px;
+}
+.protocol {
+    display: inline-block;
+    margin: 10px;
+}
+blockquote {
+    float: right;
+    width: 275px;
+    font-size: 130%;
+    font-style:italic;
+    font-family: Georgia, Times, serif;
+    margin: 0px 0px 10px 10px;
+    padding: 10px;
+    border-top: 1px solid #665544;
+    border-bottom: 1px solid #665544;
+}
+.table {
+    column-count: 3;
+    display: inline-block;
+}
+form {
+    margin: 35px;
+}
+.btn {
+  border-radius: 20px;
+  color: #fff;
+  margin-top: 18px;
+  padding: 10px;
+  background-color: #47c35a;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+}
+.oefenprogramma {
+  padding: 10px;
+  margin: 0px;
+  background: yellow;
+  font-weight: bold;
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 20px;
+  justify-content: left;
+}
+.grid-container {
+  padding: 10px;
+  margin: 0px;
+  background: deepskyblue;
+  font-weight: bold;
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 20px;
+  justify-content: center;
+}
+.homepage {
+  padding: 10px;
+  margin: 10px;
+}
+.input-field {
+  width: 80%;
+  height: 40px;
+  margin-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid #777;
+  border-radius: 14px;
+  outline: none;
+}
+.contact-box {
+  width: 80%;
+  background-color: #fff;
+  box-shadow: 0 0 20px 0 #999;
+  transform: translate (-50% -50%);
+  position: left;
+  margin: 10px;
+  padding: 20px
+}
+.club {
+  width: 80%;
+  height: 40px;
+  margin-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  outline: none;
+}
+@media (min-width: 600px) {
+  p {
+    font-size: 1.25rem;
+}
+}
+@media (min-width: 1024px) {
+  p {
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+}
+

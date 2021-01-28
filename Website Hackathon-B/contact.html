@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>Contact Form</title>
+  </head>
+  <body>
+    <div class="homepage">
+      <a href="index.html"> Back to Homepage </a>
+    </div>
+
+    <div class="contact-box">
+      <form>
+        <input type="text" class="input-field" placeholder="Naam" />
+        <input type="text" class="input-field" placeholder="Email" />
+        <input type="text" class="input-field" placeholder="Onderwerp" />
+        <input type="text" class="input-field" placeholder="Bericht" />
+        <input type="date" class="input-field" placeholder="Your birthday" />
+        <input
+          type="label"
+          class="input-field"
+          placeholder="Favoriete club in de League:"
+        />
+
+        <div class="club">
+          <select id="club" name="club">
+            <option value="groengeel">GG/IJskoud de Beste</option>
+            <option value="oostarnhem">Oost-Arnhem</option>
+            <option value="kz">KZ/Thermo4U</option>
+            <option value="pkc">PKC/Vertom</option>
+            <option value="blauwwit">Blauw-Wit (A)</option>
+            <option value="ldodk">LDODK/Rinsma Modeplein</option>
+            <option value="dvo">DVO/Accountor</option>
+            <option value="top">TOP/LITTA</option>
+            <option value="dos">DOS ’46</option>
+            <option value="dalto">Dalto/Klaverblad Verzekeringen</option>
+            <option value="kcc">KCC/CK Kozijnen</option>
+            <option value="fortuna">Fortuna/Delta Logistiek</option>
+          </select>
+        </div>
+
+        <p>Geslacht:</p>
+        <input type="radio" id="male" name="gender" value="male" />
+        <label for="male">Male</label><br />
+        <input type="radio" id="female" name="gender" value="female" />
+        <label for="female">Female</label><br />
+        <input type="radio" id="other" name="gender" value="other" />
+        <label for="other">Other</label>
+
+        <br />
+
+        <p>Leeftijd:</p>
+        <input type="radio" id="age1" name="age" value="30" />
+        <label for="age1">0 - 30</label><br />
+        <input type="radio" id="age2" name="age" value="60" />
+        <label for="age2">31 - 60</label><br />
+        <input type="radio" id="age3" name="age" value="100" />
+        <label for="age3">61 - 100</label><br /><br />
+
+        <button type="button" class="btn">Send Message</button>
+        <button type="button" class="btn">Reset</button>
+      </form>
+    </div>
+  </body>
+</html>
